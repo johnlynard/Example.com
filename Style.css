@@ -1,0 +1,42 @@
+html {
+  background: fixed url(images/space.png);
+  scrollbar-width: 1px;
+}
+#resetButton {
+  display: none;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  font-size: 16px;
+}
+.control-button {
+  text-align: center;
+  width: 70px;
+  padding: 15px 0 15px 0;
+  position: absolute;
+  font-size: 16px;
+  z-index: 10;
+  opacity: 0.4;
+}
+#leftButton {
+  top: 80%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+}
+#rightButton {
+  top: 80%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+
+#startButton {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px 40px;
+  font-size: 20px;
+}
